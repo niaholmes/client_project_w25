@@ -8,51 +8,70 @@
 </head>
 <body>
     <header>
-        <a href = "index.html">UMSI</a>
+        <!-- <a href = "index.html">UMSI</a> -->
     <nav>
+        <a id="mobile" href="#s2m3">
+            <img id="logo" src="/images/white_logo.png" alt="UMSI Logo">
+        </a>
+        <a id="mobile2" href="#s2m1">
+            <img id="logo2" src="/images/white_logo_small.png" alt="UMSI Logo">
+        </a>
         <ul>
-                <!-- <img src="/images/white_logo.png" alt="UMSI Logo"> -->
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "academic-counseling.html">Academic Counseling</a></li>
-                <li><a href = "tutoring.html">Tutoring</a></li>
+                <li id="current"><a href = "tutoring.html">Tutoring</a></li>
                 <li><a href = "CAPS.html">Counseling and Psychological Services (CAPS)</a></li>
+                <li><a href="feedback.html">Have Feedback?</a></li>
         </ul>
     </nav>
-    <h1>Tutoring Options at UMSI</h1>
 </header>
 <main>
+    <h1 id="s2m3" >Tutoring Options at UMSI</h1>
     <div>
         <p>Achieving academic success often requires additional support outside of the classroom. At the University of Michigan's School of Information, we are committed to providing you with the resources you need to excel. Explore the tutoring options available to our Bachelor of Science in Information (BSI) students.</p>
-    </div>
-    <div>
-        <h2>Peer Tutoring Program</h2>
+    <h2>Peer Tutoring Program</h2>
+    <div class="one">
         <figure>
             <img src="images/umsi-tutoring.jpg" alt="one-on-one help">
             <figcaption>Peer Tutoring</figcaption>
         </figure>
-        <p>Our Peer Tutoring Program connects you with fellow students who have excelled in UMSI courses and are eager to share their knowledge and study strategies. Our peer tutors offer:</p>
-        <ul>
-            <li>- One-on-one or group tutoring sessions</li>
-            <li>- Help with understanding difficult conceptss</li>
-            <li>- Assistance with specific coursework in core BSI classes</li>
-        </ul>
-        <p>For more information, please visit our <a href ="https://sites.google.com/umich.edu/umsitutoring/home?pli=1&authuser=1">UMSI Tutoring page</a>.</p>
+        <div class="two">
+            <p>Our Peer Tutoring Program connects you with fellow students who have excelled in UMSI courses and are eager to share their knowledge and study strategies. Our peer tutors offer:<br><br><br> - One-on-one or group tutoring sessions<br><br>- Help with understanding difficult concepts<br><br>- Assistance with specific coursework in core BSI classes<br><br><br>For more information, please visit our <a href ="https://sites.google.com/umich.edu/umsitutoring/home?pli=1&authuser=1">UMSI Tutoring page</a>.</p>
+        </div>
     </div>
-    <div>
-        <h2>University-wide Tutoring Services</h2>
+    <h2>University-wide Tutoring Services</h2>
+    <div class="one">
         <figure>
             <img src="images/SLC.jpg" alt="group help in the SLC">
             <figcaption>Science Learning Center (SLC)</figcaption>
         </figure>
-        <p>There are also tutoring options open to all university students. Below you will find a list of a few of the university's other resources:</p>
+        <div class="two">
+            <p>There are also tutoring options open to all university students. Below you will find a list of a few of the university's other resources:</p>
         <ul>
-            <li><a href ="https://lsa.umich.edu/math/undergraduates/course-resources/math-lab.html">Mathematics Learning Center (MLC):</a><br><br>Support for all levels of mathematics, useful for quantitative courses within the BSI curriculum</li><br>
-            <li><a href ="https://lsa.umich.edu/slc">Science Learning Center (SLC):</a><br><br>Tutoring for chemistry, biology, and physics courses, which can complement the technical skillsets of BSI students.</li><br>
-            <li><a href ="https://lsa.umich.edu/sweetland">Sweetland Center for Writing:</a><br><br>Improve your writing skills for papers, reports, and projects with writing workshops and one-on-one consultations.</li>
+            <li>
+                <p><a href ="https://lsa.umich.edu/math/undergraduates/course-resources/math-lab.html">Mathematics Learning Center (MLC):</a></p>
+                <p>Support for all levels of mathematics, useful for quantitative courses within the BSI curriculum.</p>
+            </li>
+            <li>
+                <p><a href ="https://lsa.umich.edu/slc">Science Learning Center (SLC):</a></p>
+                <p>Tutoring for chemistry, biology, and physics courses, which can complement the technical skill sets of BSI students.</p>
+            </li>
+            <li>
+                <p><a href ="https://lsa.umich.edu/sweetland">Sweetland Center for Writing:</a></p>
+                <p>Improve your writing skills for papers, reports, and projects with writing workshops and one-on-one consultations.</p>
+            </li>
         </ul>
+        </div>
     </div>
 </main>
-<footer></footer>
- <!-- Content taken & modified from UMGPT with the prompt, "write me a webpage of intro content to help University of Michigan BSI undergraduates learn about all of the tutoring available to them" -->
+<footer>
+    <p>
+        <a href = "index.html">Home</a> | <a href = "academic-counseling.html">Academic Counseling</a> | <a href = "#s2m3">Tutoring</a> | <a href = "CAPS.html">Counseling and Psychological Services (CAPS)</a> | <a href="feedback.html">Have Feedback?</a> | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">MSI Academic Advising</a>
+    </p>
+    <p>© Copyrights <span id="year"></span> by Nia Holmes. All rights reserved.</p>
+</footer>
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
 </body>
 </html>
