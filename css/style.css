@@ -326,7 +326,7 @@ textarea{
     h4{
         font-weight: bold;
     }
-    #para, h4{
+    .para, h4{
         padding: 0 10px 0 15px;
     }
 }
