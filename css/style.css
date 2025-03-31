@@ -178,7 +178,7 @@ legend{
 
 fieldset{
     color: #00274C;
-    max-width: 500px;
+    max-width: 260px;
     margin: 8rem auto;
     border: 3px solid #00274C;
     padding: 2rem;
@@ -220,12 +220,6 @@ textarea{
     border: 2px solid #00274C;
 }
 
-
-
-
-
-
-
 /* 404 Page Styling */
 .error-404 h1{
     all: unset;
@@ -252,6 +246,8 @@ textarea{
     border-radius: 8px;
     font-weight: bolder;
 }
+
+/* Desktop View Styling */
 
 @media screen and (min-width: 1020px) {
     
@@ -328,6 +324,14 @@ textarea{
     }
     .para, h4{
         padding: 0 10px 0 15px;
+    }
+    legend{
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    fieldset{
+        max-width: 500px;
     }
 }
 
