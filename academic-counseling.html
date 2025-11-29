@@ -3,71 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/umsi-box-logo.jpg" type="image/png">
     <link rel="stylesheet" href="./css/style.css">
     <title>Academic Counseling</title>
 </head>
 <body>
     <header>
-        <!-- <a href = "index.html">UMSI</a> (skip to main -->
-        <nav>
-            <a id="mobile" href="#s2m2">
-                <img id="logo" src="./images/white_logo.png" alt="UMSI Logo">
-            </a>
-            <a id="mobile2" href="#s2m1">
-                <img id="logo2" src="./images/white_logo_small.png" alt="UMSI Logo">
-            </a>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li id="current"><a href = "academic-counseling.html">Academic Counseling</a></li>
-                <li><a href = "tutoring.html">Tutoring</a></li>
-                <li><a href = "CAPS.html">Counseling and Psychological Services (CAPS)</a></li>
-                <li><a href="feedback.html">Have Feedback?</a></li>
-            </ul>
-        </nav>
-
+        <div class="nav-menu">
+            <div id="header">
+                <img id="logo" src="./images/umsi-box-logo.jpg" alt="UMSI logo">
+                <button id="menu-toggle">☰</button>
+            </div>
+            <nav id="main-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a id="current" href="academic-counseling.html">Academic Counseling</a></li>
+                    <li><a href="tutoring.html">Tutoring</a></li>
+                    <li><a href="student-care.html">Student Care</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="desktop-nav">
+            <div id="desktop-header">
+                <img id="desktop-logo" src="./images/white_logo.png" alt="UMSI logo">
+            </div>
+            <nav id="desktop-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a id="current" href="academic-counseling.html">Academic Counseling</a></li>
+                    <li><a href="tutoring.html">Tutoring</a></li>
+                    <li><a href="student-care.html">Student Care</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <h1 id="s2m2" >UMSI Academic Advising Resources</h1>
-        <p>At the University of Michigan School of Information (UMSI), we are committed to supporting our students' academic success by offering a wide array of resources and services. Our academic advising team provides personalized guidance to help you navigate your curriculum, select courses, and address any academic challenges or questions you may encounter during your studies. UMSI students also have access to the extensive collections and study spaces within the University Library system, offering both digital and physical resources essential for research and coursework. Additionally, our specialized tutoring services and the UMSI Writing Center are available to support you in mastering complex subjects and enhancing your written communication skills. By utilizing these academic resources, UMSI students can thrive in their studies and achieve their educational goals. </p>
-        <h2>Academic Advising Team</h2>
-        <div class="one">
-            <figure>
-                <img src="images/UMSI_MHIClassroom_02202023_11.JPG" alt="Students getting help in classroom">
-                <figcaption>Our Advising Team</figcaption>
-            </figure>
-            <div class="two">
-                <p>Our team of academic advisors is committed to supporting your academic success and personal growth. They can help you with:<br><br><br> - Course selection and scheduling<br><br>- Understanding degree requirements<br><br>- Navigating university policies<br><br>- Exploring majors, minors, and specializations<br><br>- Study abroad and dual degree options<br><br><br>To schedule an appointment, visit <a href ="https://sites.google.com/umich.edu/bsiacademicadvising/academic-advising?authuser=1">Academic Counseling</a>.</p>
-            </div>
+        <h1>Academic Advising</h1>
+        <div class="page-imgs">
+            <img src="images/UMSI_MHIClassroom_02202023_11.JPG" alt="Students receiving academic help">
+            <p>At UMSI, we have an <a href="https://www.si.umich.edu/student-experience/academic-advising/about-academic-advising-teams"> Academic Advising Team</a> who is committed to supporting our students' academic success by offering personalized guidance with navigating your curriculum, selecting courses, and addressing any academic challenges or questions you may encounter during your studies.</p>
+            <p>To schedule an appointment, visit our <a href ="https://sites.google.com/umich.edu/bsiacademicadvising/academic-advising?authuser=1">BSI Academic Advising Resource Site.</a></p>
         </div>
-        <h2>Academic Programs and Student Life (APSL)</h2>
-        <div class="one">
-            <p>APSL operates within UMSI, focusing on student success across academic programs. Our team is able to:<br><br><br> - Support UMSI students through academic and student success initiatives<br><br>- Focus on academic programs, advising, student life, and personal support<br><br>- Connect students to campus resources and services<br><br>- Develop and evaluate programs, services, and new initiatives<br><br><br>Learn more about peer advising opportunities through the <a href ="https://www.si.umich.edu/student-experience/academic-success/about-academic-programs-and-student-life-team">Academic Programs and Student Life (APSL) team</a>.</p>
-            <div class="two">
-                <figure>
-                    <img src="images/UMSI_DesignJam_GreatLakesWaterSafety_07.JPG" alt="Students getting help in classroom">
-                    <figcaption>Peer Advising</figcaption>
-                </figure>
-            </div>
+
+        <h2>Peer Advising</h2>
+        <div class="page-imgs">
+            <img src="images/UMSI_DesignJam_GreatLakesWaterSafety_07.JPG" alt="Students getting help in classroom">
+            <p>The Academic Success Team put together a group of amazing graduate student interns, who provide peer tutoring and peer advising!</p>
+            <p>Learn more about peer advising opportunities through the <a href ="https://www.si.umich.edu/student-experience/academic-success/about-academic-programs-and-student-life-team">Academic Programs and Student Life (APSL) team.</a></p>
         </div>
-        <h2>Career Development Support</h2>
-        <div class="one">
-            <figure>
-                <img src="images/UMSI_MHIClassroom_02202023_16.JPG" alt="Students getting help in classroom">
-                <figcaption>Career Development Support</figcaption>
-            </figure>
-            <div class="two">
-                <p>The U-M School of Information offers extensive career development support tailored to BSI students, including:<br><br><br> - Resume and cover letter workshops<br><br>- Internship and job search strategies<br><br>- Interview preparation<br><br><br>Visit our <a href ="https://www.si.umich.edu/student-experience/career-development">Career Development</a> page for more information.</p>
-            </div>
+        
+        <h3>Career Development Support</h2>
+        <div class="page-imgs">
+            <img src="images/UMSI_MHIClassroom_02202023_16.JPG" alt="Students getting help in classroom">
+            <p>The U-M School of Information offers extensive career development support tailored to BSI students, including resume and cover letter workshops, internship and job search strategies, and interview preparation!</p>
+            <p>Visit our <a href ="https://www.si.umich.edu/student-experience/career-development">Career Development</a> page for more information.</p>
         </div>
     </main>
     <footer>
+        <div class="footer-logo">
+            <div>
+                <img id="logo" src="./images/umsi-box-logo.jpg" alt="UMSI logo"> 
+            </div>
+            <div>
+                <p>The University of Michigan School of Information</p>
+            </div>
+        </div>
         <p>
-            <a href = "index.html">Home</a> | <a href = "#s2m2">Academic Counseling</a> | <a href = "tutoring.html">Tutoring</a> | <a href = "CAPS.html">Counseling and Psychological Services (CAPS)</a> | <a href="feedback.html">Have Feedback?</a> | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">MSI Academic Advising</a>
+            <p><strong>Email:</strong> umsi.academicsuccess@umich.edu</p>
+            <p><strong>Phone:</strong> (734) 763-2285</p>
+            <p><strong>Location: </strong><br>Room 2260, Leinweber Building<br>2200 Hayward Street Ann Arbor, MI 48109</p>
         </p>
-        <p>© Copyrights <span id="year"></span> by Nia Holmes. All rights reserved.</p>
     </footer>
-    <script>
-        document.getElementById("year").innerHTML = new Date().getFullYear();
-    </script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
