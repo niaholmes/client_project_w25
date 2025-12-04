@@ -120,8 +120,11 @@ header {
 }
 
 @media screen and (min-width: 1024px) {
+    body {
+        font-size: 17px;
+    }
     main {
-        padding: 50px 100px;
+        padding: 50px 270px;
     }
     .nav-menu {
         display: none;
@@ -152,7 +155,7 @@ header {
         padding: 10px 30px;
     }
     .page-imgs img {
-        width: 50%;
+        width: 90%;
     }
     .list-items p {
         border-top-right-radius: 7px;
